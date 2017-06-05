@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blog App</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="/stylesheet/app.css">
+    </head>
+    <body>
+        <div class="ui fixed inverted menu">
+            <div class="ui container">
+                <div class="header item">
+                    <i class="paw icon"></i>PawLog
+                </div>
+                <a href="/" class="item">
+                    <i class="home icon"></i>Home
+                </a>
+                <a href="/blogs/new" class="item">
+                    <i class="plus icon"></i>New Post
+                </a>
+                <div class="right item">
+                <form action="/blogs" method="GET" id="post-search">
+                    <div class="ui action left icon input">
+                        <i class="search icon"></i><input type="text" name="search" placeholder="Search...">
+                    </div>
+                </form>  
+                </div>
+            </div>
+        </div>
+        
